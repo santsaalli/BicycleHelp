@@ -105,6 +105,8 @@ public class MainActivity extends ActionBarActivity {
                 return true;
 
             case R.id.action_contact:
+                Intent intent1 = new Intent(this, Contact.class);
+                startActivity(intent1);
 
                 return true;
 
